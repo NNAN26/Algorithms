@@ -1,57 +1,57 @@
 package Ep2;
 import java.util.Scanner;
+
 public class maxmin {
-   public static  void  mymax(int a,int b, int c){
-    int max = 0;
-    
-    if(a>=b && a>=c){
-      max=a;
-      System.out.println("Max = " + max);
-    }else if (b>=a && b>=c){
-      max=b;
-      System.out.println("Max = " + max);
-    }else if( c>=a && c>=b){
-      max=c;
-      System.out.println("Max = " + max);
+    // ฟังก์ชันหาค่าสูงสุด
+    public static int mymax(int a, int b, int c) {
+        int max;
+        if (a >= b && a >= c) {
+            max = a;
+        } else if (b >= a && b >= c) {
+            max = b;
+        } else {
+            max = c;
+        }
+        return max;
     }
-    System.out.println("Max = " + max);
-     return max;
-   }
-   public static void mymin(int a, int b, int c){
-      int min = 0;
-      if(a<= b && a<=c){
-         min =a;
-         System.out.println("Min = " + min);
-       }else if (b<= a && b<=c){
-         min =b;
-         System.out.println("Min = " + min);
-       }else if (c<= a && c<=b){
-         min =c;
-         System.out.println("Min = " + min);
-       }
-       System.out.println("Min = " + min);
-      return min;
-   }
-   
-   
-   public static void main(String[] args) {
-      Scanner scanIn = new Scanner(System.in);
-      System.out.println("Enter first number");
-      int a = scanIn.nextInt();
-      System.out.println("Enter second number");
-      int b = scanIn.nextInt();
-      System.out.println("Enter last numbe");
-      int c = scanIn.nextInt();
-      scanIn.close();
-      
-      int Max = mymax(a, b, c);
-      int Min = mymin(a, b, c);
 
-      int total = Max + Min;
+    // ฟังก์ชันหาค่าต่ำสุด
+    public static int mymin(int a, int b, int c) {
+        int min;
+        if (a <= b && a <= c) {
+            min = a;
+        } else if (b <= a && b <= c) {
+            min = b;
+        } else {
+            min = c;
+        }
+        return min;
+    }
 
-      
-      System.out.println("total (max + min) = " +total);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-      
+        // รับค่าจากผู้ใช้
+        System.out.println("Enter first number:");
+        int a = scanner.nextInt();
+        System.out.println("Enter second number:");
+        int b = scanner.nextInt();
+        System.out.println("Enter third number:");
+        int c = scanner.nextInt();
+
+        // เรียกใช้ฟังก์ชัน mymax และ mymin
+        int max = mymax(a, b, c);
+        int min = mymin(a, b, c);
+
+        // ผลลัพธ์จากการบวกค่ามากที่สุดและค่าน้อยที่สุด
+        int total = max + min;
+
+        // แสดงผลลัพธ์
+        System.out.println("Max = " + max);
+        System.out.println("Min = " + min);
+        System.out.println("Total (max + min) = " + total);
+
+        scanner.close();
+    }
 }
-}
+
