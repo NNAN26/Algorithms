@@ -1,5 +1,6 @@
 package Ep2;
 
+// 5.จงเขียนโปรแกรมคำนวนเกรดจากนักศึกษาจำนวน 10 คน
 import java.util.Random;
 
 public class grade {

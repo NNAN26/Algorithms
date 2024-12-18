@@ -1,5 +1,7 @@
+package Ep2;
 import java.util.Scanner;
 
+//4.รับค่า n เข้าผ่านทางแป้นพิมพ์ จากนั้นให้เขียนฟังก์ชัน prime เพื่อแสดงจำนวนเฉพาะ
 public class prime {
     public static boolean isPrime(int num) {
         if (num <= 1) {

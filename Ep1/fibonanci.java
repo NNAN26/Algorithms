@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//Integer จากคีย์บอร์ด เพื่อนำมาคำนวนค่า Fibonanci 
+
 public class fibonanci {
     
 public static void main(String[] args) {

@@ -1,3 +1,6 @@
+package Ep2;
+
+//6.จงเขียนโปรแกรมสำหรับการทำ Matrix Transpose โดยให้รับค่า Matrix ขนาด 3x3
 import java.util.Scanner;
 
 public class Matrix {

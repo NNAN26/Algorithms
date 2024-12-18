@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//คำนวนเงินได้ที่หักจากประกันสังคม 
 public class socialSecurity {
     
 public static void main(String[] args) {

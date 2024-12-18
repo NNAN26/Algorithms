@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class money {
-    
+
+    //จำนวนเงินที่ผู้ใช้ต้องการคำนวนเพื่อแตกเป็นธนบัตรแต่ละจำนวน
 public static void main(String[] args) {
     Scanner scanIn = new Scanner(System.in);
     int amount ;

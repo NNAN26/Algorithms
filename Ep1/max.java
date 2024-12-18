@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//เพื่อหาค่ามากที่สุดจาก 3 ตัวแปร
 public class max {
     
 public static void main(String[] args) {

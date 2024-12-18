@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class sequence {
-    
+    //เพื่อแสดงและหาผลรวมของเลขต่อไปนี้ตามลำดับที่กำหนดให้ เขียนทั้ง 3 sequence
 public static void main(String[] args) {
     int sum1 = 0;
     int i = 10; 

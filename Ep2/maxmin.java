@@ -1,6 +1,7 @@
 package Ep2;
 import java.util.Scanner;
 
+//รับค่า 3 ค่าจากแป้นพิมพ์ในฟังก์ชันหลัก
 public class maxmin {
     // ฟังก์ชันหาค่าสูงสุด
     public static int mymax(int a, int b, int c) {

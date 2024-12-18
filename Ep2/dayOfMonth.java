@@ -1,5 +1,5 @@
-
-
+package Ep2;
+// 3.จงเขียนโปรแกรมเพื่อรับค่าวัน เดือน และปี จากแป้นพิมพ์ในฟังก์ชันหลัก 
 import java.util.Scanner;
 public class dayOfMonth {
     public static void checkInput(int day, int month, int year) {

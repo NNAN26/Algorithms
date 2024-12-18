@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// เพื่อหาผลคูณ Factorial ของ 1 ถึง n โดยใช้การวนซ้ำ
 public class factorial {
 
     public static void main(String[] args) {

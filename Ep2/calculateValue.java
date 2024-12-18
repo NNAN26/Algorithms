@@ -1,5 +1,6 @@
 package Ep2;
 
+// 1.จงเขียนโปรแกรมเพื่อรับค่าจากแป้นพิมพ์ มาทำการคำนวนค่า Factorial และ Fibonanci
 import java.util.Scanner;
 
 public class calculateValue {

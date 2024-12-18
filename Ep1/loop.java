@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class loop {
     
+    //เขียนโปรแกรมโดยใช้ Loop
 public static void main(String[] args) {
     
     for(int i=1; i<= 5; i++){ // *จะทำการเริ่มตั้งแต่1ถึง5 โดยi++เป็นการเพิ่มค่าทีละ1

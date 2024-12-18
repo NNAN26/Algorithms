@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//การตัดเกรดแบบอิงเกณฑ์ ระดับคะแนน 0-100 คะแนน
+
 public class score {
     
 public static void main(String[] args) {

@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+//จงพัฒนาโปรแกรมเพื่อรับค่า P และ Q แล้วแสดงผลการตรวจสอบตัวดำเนินการตรรกะ XOR 
+//ตามค่าตารางความจริงดังต่อไปนี้โดยใช้เงื่อนไขประกอบ (compound condition)
+
 public class logic {
     
 public static void main(String[] args) {

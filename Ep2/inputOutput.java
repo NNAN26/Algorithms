@@ -1,4 +1,6 @@
-
+package Ep2;
+//7. จงเขียนโปรแกรมรับค่าขนาดของ Array 1 มิติ จากแป้นพิมพ์ 
+//จากนั้นรับค่าจำนวนเต็มตามขนาดของ Array
 import java.util.Scanner;
 public class inputOutput {
     public static void main(String[] args) {
